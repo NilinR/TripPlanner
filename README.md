@@ -1,11 +1,11 @@
 ![image](https://github.com/user-attachments/assets/bf6b125d-5ae9-4b29-b301-73e795c7e352)
 
-## Trip Planner
+# Trip Planner
 Travel Management System built using Python's Tkinter and MySQL database
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
+* [Working](#working)
 * [Features](#features)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -14,28 +14,44 @@ Travel Management System built using Python's Tkinter and MySQL database
 
 
 ## General info
-Trip Planner is a travel management system I built with Python and MySQL for my 12th grade  project. 
+Trip Planner is a Travel management system built with Python and MySQL as my final 12th grade Python project.
 
-## Screenshots
+It provides functionalities to book a flight and hotel in one system making the travel booking process easier.
 
-Home Page
+* The system requires a login whos data is stored using python files, 
+* GUI display and buttons using tkinter 
+* and stores the full booking of flights using MySQL connect.
+
+
+## Working
+
+Login
 :-------------------------:
-![HomePage](https://user-images.githubusercontent.com/19711677/86519243-7a55af00-bdfe-11ea-8a43-a9850710bd82.JPG)
+![login](https://github.com/user-attachments/assets/3ad6c931-5267-4e90-82d3-43566bc7541f)
+
+ Sign Up has restraints for 10 digit contact number and verifies the reentered password.
+ 
+ It stores the username and password in files as nested lists : [[Username,Pass], [Nilin,Nil],]
+ 
+ When Loging in the username is searched for in the file and password is verified.
+ 
+ Finally the login sign is replaced by the username.
 
 
-Language Dropdown Page
+Book Flight
 :-------------------------:
-![HomePage language dropdown](https://user-images.githubusercontent.com/19711677/86519338-79714d00-bdff-11ea-8780-a09ec73ef9d4.JPG)
+![image](https://github.com/user-attachments/assets/19e2c512-f079-4187-921e-8000c77abd36)
+![image](https://github.com/user-attachments/assets/a59aa472-0de7-45cd-8ae8-00c63a48e48b)
 
 
- Shop Owner Dashboard Page
+Hotel Booking
 :-------------------------:
-![Shop Owner or Manger Page with Google Analytics](https://user-images.githubusercontent.com/19711677/86519242-79bd1880-bdfe-11ea-8681-a613f0e77faf.JPG)
+![image](https://github.com/user-attachments/assets/e3e1d271-0eef-468b-a697-3e8525a86c53)
 
 
-Customer Dashboard Page
+Report
 :-------------------------:
-![customer dashboard](https://user-images.githubusercontent.com/19711677/86519241-79bd1880-bdfe-11ea-946c-27d0adf8745b.JPG)
+![image](https://github.com/user-attachments/assets/1768073d-bd3d-44c5-8769-a652da757b8a)
 
 
 Live Chat Support           
