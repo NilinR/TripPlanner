@@ -43,34 +43,26 @@ Book Flight
 ![image](https://github.com/user-attachments/assets/19e2c512-f079-4187-921e-8000c77abd36)
 ![image](https://github.com/user-attachments/assets/a59aa472-0de7-45cd-8ae8-00c63a48e48b)
 
-
+ Enter date into a calander that is verified by current date
+ 
+ Flight distance save in mysql table accessed
+ 
+ Flight cost calculated using distance, avg cost and random module for increments
+ 
+ MySql also verified to make sure only 5 bookings at a time
+ 
+ (Gives fully booked error on 6 flight booked)
+ 
+ Displays a bill as well.
+ 
 Hotel Booking
 :-------------------------:
 ![image](https://github.com/user-attachments/assets/e3e1d271-0eef-468b-a697-3e8525a86c53)
 
 
-Report
+End Report
 :-------------------------:
 ![image](https://github.com/user-attachments/assets/1768073d-bd3d-44c5-8769-a652da757b8a)
-
-
-Live Chat Support           
-:-------------------------:
-![live chat support](https://user-images.githubusercontent.com/19711677/86519249-7b86dc00-bdfe-11ea-8809-cb1e7c304637.JPG)
-
- 
-Product List Page       |  Product Detail Page
-:-------------------------:|:-------------------------:
-![shop](https://user-images.githubusercontent.com/19711677/86519337-79714d00-bdff-11ea-88a0-4001d8ab386a.JPG) | ![Product Detail Page](https://user-images.githubusercontent.com/19711677/86519245-7aee4580-bdfe-11ea-802f-154ad56b80ff.JPG)
-
-Checkout Page 
-:-------------------------:
-![Checkout page](https://user-images.githubusercontent.com/19711677/86519248-7b86dc00-bdfe-11ea-9df0-4b1113de6938.JPG)
-
-
-PayPal Payment Page
-:-------------------------:
-![Payment Page](https://user-images.githubusercontent.com/19711677/86519247-7b86dc00-bdfe-11ea-81f5-6a32aa760d7d.JPG)
 
 ## Features
 
@@ -85,72 +77,33 @@ PayPal Payment Page
 * Live Chat Support
 
 ## Technologies
-* Python 3
-* Javascript
-* Jquery 
-* Django 1.11
-* HTML5
-* CSS3 
-* Bootstrap 4
-* Font awesome
-* PostgreSQL
-* Celery
-* Redis
-* Ngrok
+* Done in Python version 3
+* Tkinter GUI
+* Python + MySQL connector
 
 ## Setup
 
-To run this app, you will need to follow these 3 steps:
+The modules that are required are:
 
 #### 1. Requirements
   - a Laptop
 
-  - Text Editor or IDE (eg. vscode, PyCharm)
-
-  - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on your Laptop.
+  - Text Editor or IDE (I used IDLE)
 
 
-#### 2. Install Python and Pipenv
-  - [Python3](https://www.python.org/downloads/)
-  
+#### 2. Install Python modules
+Libraries used:
+ tkinter
+ datetime
+ tkcalendar
+ math
+ random
+ mysql.connector
+ PIL
 
-  - [Pipenv](https://pipenv-es.readthedocs.io/es/stable/)
-
-#### 3. Local Setup and Running on Windows, Linux and Mac OS
-
-  ```
-  # Clone this repository into the directory of your choice
-  $ git clone https://github.com/Williano/Final-Senior-Year-Project-.git
-
-  # Move into project folder
-  $ cd Final-Senior-Year-Project-
-
-  # Install from Pipfile
-  $ pipenv install -r requirements.txt 
-
-  # Activate the Pipenv shell
-  $ pipenv shell
-
-  # Create database tables
-  (Final-Senior-Year-Project-XXXX) $ python manage.py migrate
-  
-  # Create superuser account
-  (Final-Senior-Year-Project-XXXX) $ python manage.py createsuperuser
-
-  # Start server
-  (Final-Senior-Year-Project-XXXX) $ python manage.py runserver
-  
-  # Copy the IP address provided once your server has completed building the site. (It will say something like >> Serving at 127.0.0.1....).
-  
-  # Open the address in the browser
-  >>> http://127.0.0.1:XXXX
-  
-  
-  # Django Admin
-  >>> http://127.0.0.1:XXXX/admin/
-  ```
+to install the libraries (math an
+py -m pip install [options] <requirement specifier> [package-index-options] ...
 
 
-## Contact
-Created by [Williano](https://williano.github.io/) - feel free to contact me!
+Created by [Nilin Rose](https://github.com/NilinR) nilinr0@gmail.com
 
