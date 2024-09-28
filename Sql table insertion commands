@@ -1,0 +1,22 @@
+create database Flight;
+use Flight;
+create table Distance(From_ varchar(10),To_ varchar(10),dist int);
+create table Companies(Name varchar(100),Seats int);
+
+insert into companies values('SpiceJet',0);
+insert into companies values('Go First',0);
+insert into companies values('Air India',0);
+insert into companies values('Indigo',0);
+insert into companies values('Air Asia',0);
+insert into companies values('Emirates Airlines',0);
+
+insert into distance values('DEL','NYC',11741);
+insert into distance values('BLR','NYC',13360);
+insert into distance values('BLR','DEL',2175);
+insert into distance values('BOM','BLR',985);
+insert into distance values('BOM','NYC',12530);
+insert into distance values('BOM','DEL',1417);
+insert into distance values('HND','BOM',6716);
+insert into distance values('HND','BLR',6654);
+insert into distance values('HND','NYC',10848);
+insert into distance values('HND','DEL',5968);
