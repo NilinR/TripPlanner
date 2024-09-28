@@ -11,8 +11,6 @@ Travel Management System built using Python's Tkinter and MySQL database
 * [Setup](#setup)
 * [Contact](#contact)
 
-
-
 ## General info
 Trip Planner is a Travel management system built with Python and MySQL as my final 12th grade Python project.
 
@@ -93,17 +91,24 @@ The modules that are required are:
 
 #### 2. Install Python modules
 Libraries used:
- tkinter
- datetime
- tkcalendar
- math
- random
- mysql.connector
- PIL
+  -  tkinter
+ 
+  -  datetime
+ 
+  -  tkcalendar
+ 
+  -  math
+ 
+  -  random
+ 
+  -  mysql.connector
+ 
+  -  PIL
 
-to install the libraries (math an
-py -m pip install [options] <requirement specifier> [package-index-options] ...
+to install the libraries (math and random are default):
 
+   py -m pip install [options] <requirement specifier> [library] ...
 
+## Contact
 Created by [Nilin Rose](https://github.com/NilinR) nilinr0@gmail.com
 
